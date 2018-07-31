@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Learning laravel</a>            
+            <a href="#" class="navbar-brand">Learning laravel</a>
         </div>
 
         <!-- Navbar Right -->
