@@ -50,6 +50,7 @@ class LoginController extends Controller
 
     public function getFacebookCallback()
     {
+        
         $data = Socialite::with('facebook')->user();
         $user = User::where('email', $data->email)->first();
 
@@ -71,6 +72,7 @@ class LoginController extends Controller
 
             Auth::login($user);
         }
-        return redirect('/')->with('success','Successfully logged in!');
+        
+        return redirect('/about')->with('success','Successfully logged in!');
     }
 }
